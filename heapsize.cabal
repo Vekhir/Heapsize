@@ -1,4 +1,4 @@
-cabal-version:      2.0
+cabal-version:      3.0
 name:               heapsize
 version:            0.3.0.1
 license:            BSD3
@@ -16,7 +16,7 @@ description:        heapsize is a tool to determine the size data structures.
 Library
   Exposed-modules:
     HeapSize
-  c-sources:
+  cmm-sources:
     cbits/heapsize_prim.cmm
   Default-Language: Haskell2010
   Build-depends:
